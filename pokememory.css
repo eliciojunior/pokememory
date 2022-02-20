@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+body {
+  background-color: LightYellow;
+}
+
+.title {
+  display:flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.poke-logo {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.grid-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#memoria img {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+  border: thin solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#memoria #timer {
+  font-size: 36px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+#memoria #rodape {
+  text-align: center;
+}
+
+.alert {
+  text-align: center;
+}
