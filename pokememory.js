@@ -100,7 +100,7 @@ function getCartasBackground(total) {
   imagens = []
   //Imagem das cartas
   for(let i = 0; i <= total; i++){
-    const id = Math.floor(Math.random() * 100)
+    const id = Math.floor(Math.random() * 151)
     imagens.push(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`)
   }
 }
