@@ -48,11 +48,11 @@ const configuraJogo = (event) => {
       break
   }
   if(rows == 4){
-    document.querySelector('#imagens').style.marginLeft= '6%'
+    //document.querySelector('#imagens').style.marginLeft= '6%'
     document.querySelector('#btInicio').disabled = false
   } 
   if(rows == 6){
-    document.querySelector('#imagens').style.marginLeft = '2%'
+    //document.querySelector('#imagens').style.marginLeft = '2%'
     document.querySelector('#btInicio').disabled = false
   }
   let imgID = 0
